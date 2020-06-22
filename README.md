@@ -1,6 +1,3 @@
-#graphqlspringboot
-GraphQL example implemented with Spring Boot
-
 For GraphQL dependency added 
 
 ```
@@ -26,4 +23,17 @@ To connect GraphQL and Spring Boot added this dependency
             <artifactId>graphql-spring-boot-starter</artifactId>
             <version>5.0.2</version>
         </dependency>
+```
+
+### GraphiQL "out of the box"
+
+In order to get GraqhiQL, UI for testing local version of GraphQL API added this dependency
+
+```
+        <dependency>
+            <groupId>com.graphql-java</groupId>
+            <artifactId>graphiql-spring-boot-starter</artifactId>
+            <version>5.0.2</version>
+        </dependency>
+
 ```
