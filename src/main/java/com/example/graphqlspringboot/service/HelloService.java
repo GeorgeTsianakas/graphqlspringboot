@@ -10,7 +10,7 @@ import java.util.List;
 @Service
 public class HelloService {
 
-    private List<Hello> list = new ArrayList();
+    private final List<Hello> list = new ArrayList();
 
     public List<Hello> getAll() {
         return list;
